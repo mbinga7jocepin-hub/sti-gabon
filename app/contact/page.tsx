@@ -1,7 +1,12 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import { Phone, Mail, Clock, MapPin, Facebook, Linkedin, Youtube } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  Clock,
+  MapPin
+} from "lucide-react";
 import { useState } from "react";
 
 export default function ContactPage() {
@@ -92,24 +97,7 @@ export default function ContactPage() {
             </div>
 
             {/* RÉSEAUX SOCIAUX */}
-            <div>
-              <p className="text-xs text-gray-400 mb-4">Suivez-nous sur les réseaux sociaux :</p>
-              <div className="flex gap-3">
-                {[
-                  { icon: <Facebook size={18} />, color: "bg-blue-600", href: "https://www.facebook.com/SmartHome241" },
-                  { icon: <Linkedin size={18} />, color: "bg-blue-700", href: "https://www.linkedin.com/company/siping-technology-innovation/" },
-                  { icon: <Youtube size={18} />, color: "bg-red-600", href: "#" },
-                ].map((social, i) => (
-                  <a
-                    key={i}
-                    href={social.href}
-                    className={`w-10 h-10 ${social.color} text-white rounded-full flex items-center justify-center hover:opacity-80 transition`}
-                  >
-                    {social.icon}
-                  </a>
-                ))}
-              </div>
-            </div>
+            
           </div>
 
           {/* COLONNE DROITE — FORMULAIRE */}
