@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <Link href="/">
             <img
-              src="/logo.png"
+              src="/logo1.png"
               alt="STI Logo"
               className="h-8 w-auto object-contain cursor-pointer"
             />

@@ -4,23 +4,23 @@ import { useState } from "react";
 
 const testimonials = [
   {
-    name: "Jean-Marc Dupont",
-    role: "Directeur Logistique, TransAfrik",
-    photo: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Marc Guéhi",
+    role: "Directeur Logistique",
+    photo: "/portraits/guehi.jpg",
     logo: null,
     text: "STI nous a permis de réduire nos coûts de carburant de 18% en seulement 3 mois. Le suivi en temps réel est d'une précision remarquable, même dans les zones reculées.",
   },
   {
     name: "Aminata Koné",
-    role: "CEO, FastDeliver CI",
-    photo: "https://randomuser.me/api/portraits/women/44.jpg",
+    role: "CEO, FastDeliver",
+    photo: "/portraits/kone.jpg",
     logo: null,
     text: "Grâce à STI, nous avons une visibilité totale sur notre flotte de 80 véhicules. Les alertes instantanées nous ont évité plusieurs incidents majeurs.",
   },
   {
-    name: "Carlos Mendes",
-    role: "Responsable Flotte, BTP Construção",
-    photo: "https://randomuser.me/api/portraits/men/56.jpg",
+    name: "Carl Mbinga",
+    role: "Responsable Flotte",
+    photo: "/portraits/mbinga.jpg",
     logo: null,
     text: "La plateforme est intuitive et le support client est excellent. Nous recommandons STI à toutes les entreprises qui veulent optimiser leur gestion de flotte.",
   },
