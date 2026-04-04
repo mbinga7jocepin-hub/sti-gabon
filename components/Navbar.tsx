@@ -53,7 +53,7 @@ export default function Navbar() {
               className="h-8 w-auto object-contain cursor-pointer"
             />
           </Link>
-          <h1 className="font-bold text-xl text-[#1E3A8A] tracking-tight">STI</h1>
+          <h1 className="font-bold text-xl text-[#1E3A8A] tracking-tight"></h1>
         </div>
         <div className="hidden md:flex items-center gap-2 text-sm text-gray-600">
           <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
