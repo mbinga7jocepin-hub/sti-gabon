@@ -7,6 +7,9 @@ export const metadata = {
   title: "Siping Technology Innovation - STI",
   description:
     "Smart geolocation solutions for businesses and individuals.",
+  verification: {
+    google: "xNSBKpLju287G8m0GyZCqi8Iipj0HvEWzdX75mk0if4",
+  },
 };
 
 export default function RootLayout({
