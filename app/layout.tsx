@@ -29,6 +29,24 @@ export default function RootLayout({
       </head>
 
       <body className={inter.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: "Siping Technology Innovation(STI)",
+              url: "https://sti-gabon.ga",
+              telephone: "+24166916882",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Libreville",
+                addressCountry: "GA",
+              },
+              areaServed: "Gabon",
+            }),
+          }}
+        />
         {children}
       </body>
 
